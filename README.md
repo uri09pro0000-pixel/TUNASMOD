@@ -1,2 +1,189 @@
 # TUNASMOD
 TUNASMOD
+
+[hola.html](https://github.com/user-attachments/files/21928648/hola.html)
+<!TUNASMOD_ html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUNASMOD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #1a1a1a;
+            padding: 1rem;
+            height: 100vh;
+        }
+        .sidebar a {
+            display: block;
+            color: #ffffff;
+            padding: 0.5rem 0;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            color: #0004ff;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 1rem;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 1rem;
+            border-bottom: 2px solid #000000;
+        }
+        .header h1 {
+            color: #000000;
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .header .stats {
+            color: #000000;
+            font-size: 1rem;
+        }
+        .server-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .server-table th {
+            background-color: #f0ecec;
+            color: #000000;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        .server-table td {
+            padding: 0.5rem;
+            border-bottom: 1px solid #333;
+        }
+        .server-table tr:nth-child(even) {
+            background-color: #222;
+        }
+        .server-table tr:hover {
+            background-color: #2a2a2a;
+        }
+        .connect-btn {
+            background-color: #00ff00;
+            color: #000;
+            border: none;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .connect-btn:hover {
+            background-color: #1af306;
+        }
+        .vac-icon {
+            width: 16px;
+            height: 16px;
+            background-color: #fff;
+            display: inline-block;
+            margin-right: 0.5rem;
+            border-radius: 50%;
+        }
+        .os-icon {
+            width: 16px;
+            height: 16px;
+            background-color: #ffd700;
+            display: inline-block;
+            margin-right: 0.5rem;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#">Bans</a>
+        <a href="#">Comms</a>
+        <a href="#">Report a Player</a>
+        <a href="#">Appeal a Ban</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <h1>Total Servers: 1
+            </h1>
+            <div class="stats">
+                Total Bans: 0 | Total Muted: 0 | Total Stopped: 0
+            </div>
+        </div>
+        <table class="server-table">
+            <thead>
+                <tr>
+                    <th>Mod</th>
+                    <th>OS</th>
+                    <th>VAC</th>
+                    <th>Hostname</th>
+                    <th>IP Address</th>
+                    <th>Players</th>
+                    <th>Map</th>
+                    <th>Connect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4</td>
+                    <td><div class="os-icon"></div></td>
+                    <td><div class="vac-icon"></div></td>
+                    <td>TUNASMOD Server #1</td>
+                    <td>108.181.97.76:27016</td>
+                    <td>0/16</td>
+                    <td>c2m1_highway</td>
+                    <td><a href="steam://connect/108.181.97.76:27016" class="connect-btn">Connect</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><div class="os-icon"></div></td>
+                    <td><div class="vac-icon"></div></td>
+                    <td>TUNASMOD Server #2</td>
+                    <td>[Proximamente]</td>
+                    <td>0/16</td>
+                    <td>c2m1_highway</td>
+                    <td><a href="steam://connect/" class="connect-btn">[Proximamente]</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><div class="os-icon"></div></td>
+                    <td><div class="vac-icon"></div></td>
+                    <td>TUNASMOD Server #3</td>
+                    <td>[Proximamente]</td>
+                    <td>0/16</td>
+                    <td>c9m1_alleys</td>
+                    <td><a href="steam://connect/" class="connect-btn">[Proximamente]</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><div class="os-icon"></div></td>
+                    <td><div class="vac-icon"></div></td>
+                    <td>TUNASMOD Server #4</td>
+                    <td>[Proximamente]</td>
+                    <td>0/16</td>
+                    <td>c2m2_fairgrounds</td>
+                    <td><a href="steam://connect/" class="connect-btn">[Proximamente]</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><div class="os-icon"></div></td>
+                    <td><div class="vac-icon"></div></td>
+                    <td>TUNASMOD Server #5</td>
+                    <td>[Proximamente]</td>
+                    <td>0/16</td>
+                    <td>c2m1_highway</td>
+                    <td><a href="steam://connect/" class="connect-btn">[Proximamente]</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
